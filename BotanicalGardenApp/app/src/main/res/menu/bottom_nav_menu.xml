@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_action_flower"
+        android:title="@string/title_inicio" />
+
+    <item
+        android:id="@+id/navigation_location"
+        android:icon="@drawable/ic_action_location"
+        android:title="@string/title_location" />
+
+    <item
+        android:id="@+id/navigation_qrcam"
+        android:icon="@drawable/ic_action_cam"
+        android:title="@string/title_qrcam" />
+
+</menu>

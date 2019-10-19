@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Botanical Garden</string>
-    <string name="inicio">Inicio</string>
-    <string name="location">Localización</string>
-    <string name="qrcam">QR cam</string>
-    <string name="title_activity_maps">Map</string>
-</resources>
