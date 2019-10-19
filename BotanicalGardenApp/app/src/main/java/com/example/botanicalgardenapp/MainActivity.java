@@ -1,5 +1,6 @@
 package com.example.botanicalgardenapp;
 
+import android.hardware.SensorManager;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -10,7 +11,11 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import static androidx.core.content.ContextCompat.getSystemService;
+
 public class MainActivity extends AppCompatActivity {
+
+    private SensorManager sensorManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
+
+        sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
     }
 
 }
