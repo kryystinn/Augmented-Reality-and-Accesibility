@@ -3,6 +3,15 @@
     <string name="title_inicio">Inicio</string>
     <string name="title_location">Localización</string>
     <string name="title_qrcam">QR cam</string>
-    <string name="temperature_sensor">Temperatura ambiente:</string>
+    <string name="ambiente">¡Descubre tu ambiente!</string>
+    <string name="luz_sensor">Luz ambiente:</string>
+    <string name="humedad_sensor">Humedad del ambiente:</string>
     <string name="title_activity_maps">Map</string>
+    <string name="scan">Scan!</string>
+    <string name="no_sensor">Dispositivo no compatible.</string>
+    <string name="welcome">¡Bienvenido a tu app\ndel jardín botánico!</string>
+    <string name="jardines">Jardines botánicos en Asturias</string>
+    <string name="jardinesText">Jardines botánicos en Asturias:</string>
+    <string name="imageDescription">Imagen que cambia en función de la luz del sensor.</string>
+
 </resources>
